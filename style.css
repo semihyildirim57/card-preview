@@ -86,7 +86,7 @@ p {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background-size: cover;
-  background-image: url(/images/image-product-desktop.jpg);
+  background-image: url(./images/image-product-desktop.jpg);
   height: 423px;
   width: 260px;
   background-color: aquamarine;
