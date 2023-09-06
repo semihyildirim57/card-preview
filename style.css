@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100&family=Ysabeau:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100&family=Ysabeau:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3EAE3;
+  flex-direction: column;
+}
+
+
+.author {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  opacity: 0.7;
+  font-size: 9px;
+  position: absolute;
+  top: 5px;
+  right: 8px;
+
+
+}
+
+@media (max-width: 767px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+h1 {
+
+  font-family: 'Fraunces', serif;
+
+}
+
+p {
+  text-align: center;
+  font-size: 19px;
+
+
+}
+
+.card-wrapper {
+  height: 423px;
+  width: 560px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+.card-header {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  opacity: 0.3;
+  letter-spacing: 5px;
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ysabeau', sans-serif;
+  font-size: 12px;
+
+}
+
+.image-wrapper {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-size: cover;
+  background-image: url(/images/image-product-desktop.jpg);
+  height: 423px;
+  width: 260px;
+  background-color: aquamarine;
+  display: flex;
+  flex: 1 1;
+}
+
+.text-wrapper {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px;
+  text-align: left;
+  background-color: #ffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.p-area {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  position: relative;
+}
+
+.p-area p {
+  text-align: left;
+  font-size: 15px;
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500 700;
+
+
+
+}
+
+.prices {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+
+}
+
+.prices h2 {
+  color: #3A8267;
+  font-family: 'Fraunces', serif;
+}
+
+.prices span {
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+button {
+  background-color: #3A8267;
+  border: none;
+  cursor: pointer;
+  width: 220px;
+  height: 35px;
+  border-radius: 5px;
+  color: white;
+
+
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (max-width: 767px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 500px;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    height: auto;
+    background-image: url(/images/image-product-mobile.jpg);
+    height: 423px;
+    width: 280px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+
+
+  }
+
+  .text-wrapper {
+    display: flex;
+    font-size: 12px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+    gap: 10px;
+
+
+
+  }
+
+  .h1-area {
+    display: flex;
+    flex-direction: row;
+
+
+
+  }
+
+
+
+  .text-wrapper h1 {
+    font-size: 19px;
+
+  }
+
+  .text-wrapper p {
+    font-size: 12px;
+
+
+
+  }
+
+  .prices {
+    margin: 10px;
+
+
+
+  }
+
+  .card-header {
+    font-size: 10px;
+
+
+  }
+
+}
